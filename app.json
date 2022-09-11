@@ -2,14 +2,14 @@
   "expo": {
     "name": "Tarifka",
     "slug": "Tarifka",
-    "version": "1.0.0",
+    "version": "1.1.2",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icons.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashscreen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FFE5E5"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,9 +22,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/icons.png",
+        "backgroundColor": "#FFE5E5"
+      },
+      "package": "com.ramazan.restaurant"
     },
     "web": {
       "favicon": "./assets/favicon.png"
